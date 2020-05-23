@@ -29,24 +29,3 @@ CREATE TABLE `medals`.`events` (
   `sex` VARCHAR(45) NULL,
   `venues` VARCHAR(45) NULL,
   PRIMARY KEY (`id`));
-
-LOAD DATA INFILE 'C:/Users/Roma/Desktop/medals/athletes.csv' 
-INTO TABLE athletes 
-FIELDS TERMINATED BY ',' 
-ENCLOSED BY '"'
-LINES TERMINATED BY 'n'
-IGNORE 1 ROWS;
-
-LOAD DATA INFILE 'C:/Users/Roma/Desktop/medals/countries.csv' 
-INTO TABLE countries 
-FIELDS TERMINATED BY ',' 
-ENCLOSED BY '"'
-LINES TERMINATED BY 'n'
-IGNORE 1 ROWS;
-
-LOAD DATA INFILE 'C:/Users/Roma/Desktop/medals/events.csv' 
-INTO TABLE events
-FIELDS TERMINATED BY ',' 
-ENCLOSED BY '"'
-LINES TERMINATED BY 'n'
-IGNORE 1 ROWS;
