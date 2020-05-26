@@ -1,4 +1,4 @@
-CREATE OR REPLACE VIEW hotel_review_reviewer AS
+CREATE OR REPLACE VIEW athl_inf AS
     SELECT
         nationality,
         gold,
